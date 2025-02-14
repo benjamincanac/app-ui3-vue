@@ -1,6 +1,8 @@
 <template>
   <Suspense>
-    <RouterView />
+    <UApp>
+      <RouterView />
+    </UApp>
   </Suspense>
 </template>
 
