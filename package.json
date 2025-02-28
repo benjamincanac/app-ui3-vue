@@ -7,18 +7,24 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "typecheck": "vue-tsc -p ./tsconfig.app.json"
+    "typecheck": "vue-tsc -p ./tsconfig.app.json",
+    "test": "vitest"
   },
   "dependencies": {
-    "@unhead/vue": "^1.11.19",
+    "@unhead/vue": "^1.11.20",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "@nuxt/ui": "https://pkg.pr.new/@nuxt/ui@6058a13",
+    "@nuxt/ui": "3.0.0-beta.2",
     "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/test-utils": "^2.4.6",
     "typescript": "^5.7.3",
-    "vite": "^6.1.0",
+    "vite": "^6.2.0",
+    "vitest": "^3.0.7",
     "vue-tsc": "^2.2.2"
+  },
+  "resolutions": {
+    "vue-tsc": "2.2.2"
   }
 }
